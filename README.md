@@ -21,7 +21,7 @@ Aratube Downloader is a tool to download videos and playlists from YouTube with 
 
 ### Step 1: Clone the Repository
 
-```bash
+```bash``
 git clone https://github.com/your-username/aratube_downloader.git
 cd aratube_downloader
 
@@ -48,13 +48,13 @@ pip install -r requirements.txt
 ### Command-line Interface (CLI)
 -Open a terminal and Run the following command:
 
-```bash
+```bash``
 python aratube_cmd.py
 
 - Follow the prompts to enter the video URL and select download options (video, format,audio, etc.).
 ### Graphical User Interface (GUI)
 -Run the following command:
-```bash
+```bash``
 python aratube_gui.py
 
 -The GUI window will open, allowing you to paste the YouTube link and choose your download preferences.
