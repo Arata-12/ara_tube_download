@@ -1,0 +1,5 @@
+build/
+dist/
+aratube_env/
+# Exclude .spec files created by PyInstaller
+*.spec
