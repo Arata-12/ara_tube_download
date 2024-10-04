@@ -192,14 +192,11 @@ def ara_tube_gui():
     root = Tk.Tk()
     root.title("~Ara Tube Downloader")
     root.geometry("800x600")
-    # Set background image
-    background_image = ImageTk.PhotoImage(Image.open("images/arata.jpg"))
-    background_label = Tk.Label(root, image=background_image)
-    background_label.place(relwidth=1, relheight=1)
+    # Set the background color
+    root.configure(bg='#1e1e1e')
+
     # Disable window resizing
     root.resizable(False, False)
-
-
 
     # URL Input
     Tk.Label(root, text="Video/Playlist URL:",bg='black', fg='white').grid(row=0, column=0, sticky=Tk.W)
