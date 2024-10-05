@@ -192,8 +192,14 @@ def ara_tube_gui():
     root = Tk.Tk()
     root.title("~Ara Tube Downloader")
     root.geometry("800x600")
-    # Set the background color
-    root.configure(bg='#1e1e1e')
+    
+    # Load the image
+    image = Image.open("images/arata.jpg")  # Load an image file (e.g., JPG, PNG)
+    image = image.resize((800, 600), Image.Resampling.LANCZOS)  # Resize the image to fit the window
+    bg_image = ImageTk.PhotoImage(image)
+    # Create a label widget to hold the image as background
+    bg_label = Tk.Label(root, image=bg_image)
+    bg_label.place(x=0, y=0, relwidth=1, relheight=1)  # Stretch the image across the window
 
     # Disable window resizing
     root.resizable(False, False)
