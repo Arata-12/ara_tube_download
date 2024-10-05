@@ -60,6 +60,12 @@ python aratube_gui.py
 -The GUI window will open, allowing you to paste the YouTube link and choose your download preferences.
 ## Executable Version (Windows)
 - If you don't want to run the script through Python, you can use the pre-built .exe version located in releases
+### for download gui version it in zip file (you find it in releases).
+1- extract the folder and open it
+2- right click on aratube_gui.exe
+3- got to show ore options and click send to desktop as shortcut
+4- run it by click in shortcut icon in desktop.
+
 
 
 ## Screenshots
